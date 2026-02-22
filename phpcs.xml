@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset name="GlotCore History Limiter">
+	<description>GlotCore History Limiter rules for PHP_CodeSniffer</description>
+
+	<rule ref="WordPress">
+	</rule>
+</ruleset>
