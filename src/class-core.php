@@ -12,6 +12,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+use GP;
+
 /**
  * Core class.
  */
@@ -23,6 +25,27 @@ class Core {
 	 * @return void
 	 */
 	public function __construct() {
+	}
+
+	/**
+	 * Delete translation entry.
+	 *
+	 * @param int $translation_id The ID of the translation entry to delete.
+	 *
+	 * @return bool True if the translation entry was deleted successfully, false otherwise.
+	 */
+	public function delete_translation_entry( int $translation_id ): bool {
+
+		if ( $translation_id <= 0 ) {
+			return false;
+		}
+
+		$translation = GP::$translation->find_one( "id = '$translation_id'" );
+		if ( ! $translation ) {
+			return false;
+		}
+
+		return $translation->delete();
 	}
 
 	/**
