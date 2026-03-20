@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GlotCore History Limiter\n"
-"POT-Creation-Date: 2026-02-22 13:09+0100\n"
+"POT-Creation-Date: 2026-03-20 17:17+0100\n"
 "PO-Revision-Date: 2026-02-22 11:59+0100\n"
 "Last-Translator: MELONIQ.NET\n"
 "Language-Team: MELONIQ.NET\n"
