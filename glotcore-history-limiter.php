@@ -30,10 +30,6 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'GC_HL_TD', 'glotcore-history-limiter' );
-define( 'GC_HL_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
-define( 'GC_HL_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-
 /**
  * GP Init Setup.
  *
